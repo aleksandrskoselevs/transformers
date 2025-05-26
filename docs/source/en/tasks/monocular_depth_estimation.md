@@ -100,7 +100,6 @@ Let's take a look at the visualized result:
 Now that you've seen how to use the depth estimation pipeline, let's see how we can replicate the same result by hand.
 
 Start by loading the model and associated processor from a [checkpoint on the Hugging Face Hub](https://huggingface.co/models?pipeline_tag=depth-estimation&sort=downloads).
-Here we'll use the same checkpoint as before:
 
 ```py
 >>> from transformers import AutoImageProcessor, AutoModelForDepthEstimation
